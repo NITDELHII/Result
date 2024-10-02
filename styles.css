@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.loginboxx {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    bottom: 30%;
+    width: 50%;
+    margin-left: 25%;
+
+    background-color: #ff8c00;
+    height: 300px;
+}
+
+.lbl {
+    padding-top: 10px;
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.content {
+    flex: 1;
+}
+
+.sticky-footer {
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+}
+
+#message {
+    margin-top: 10px;
+    color: red;
+}
