@@ -58,6 +58,16 @@ body {
     background-color: #ff8c00;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left; /* Ensures text inside is left-aligned */
+}
+
+.loginboxx label,
+.loginboxx input,
+.loginboxx select,
+.loginboxx button {
+    width: 100%; /* Ensures child elements take full width */
+    margin-bottom: 10px; /* Adds spacing between elements */
+    text-align: left; /* Aligns text inside inputs and labels */
 }
 
 /* Responsive Design */
