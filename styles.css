@@ -58,16 +58,39 @@ body {
     background-color: #ff8c00;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    text-align: left; /* Ensures text inside is left-aligned */
 }
 
 .loginboxx label,
-.loginboxx input,
 .loginboxx select,
-.loginboxx button {
+.loginboxx input[type="text"],
+.loginboxx input[type="submit"],
+.loginboxx input[type="button"] {
     width: 100%; /* Ensures child elements take full width */
     margin-bottom: 10px; /* Adds spacing between elements */
     text-align: left; /* Aligns text inside inputs and labels */
+    box-sizing: border-box; /* Ensures padding is included in width */
+}
+
+/* Specific Input and Button Styling */
+.loginboxx input[type="text"] {
+    padding: 8px; /* Adds padding for better visibility */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.loginboxx input[type="submit"],
+.loginboxx input[type="button"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.loginboxx input[type="submit"]:hover,
+.loginboxx input[type="button"]:hover {
+    background-color: #555;
 }
 
 /* Responsive Design */
