@@ -19,7 +19,7 @@ body {
     max-width: 100%;
     padding: 0 15px; /* Adds padding so content doesn't touch screen edges */
     box-sizing: border-box; /* Ensures padding is included in width */
-    text-align: center;
+    text-align: left;
 }
 
 /* Footer Styling */
